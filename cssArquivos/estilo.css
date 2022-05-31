@@ -144,6 +144,10 @@ ul.lista li{
 .circulo-grande{
 	width: 200px;
 }
+footer{
+	background-color: #ffc9a9;
+	padding: 25px;
+}
 img.img0{
 	width: 3%
 }

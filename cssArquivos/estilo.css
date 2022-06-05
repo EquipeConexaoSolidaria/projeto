@@ -144,6 +144,9 @@ ul.lista li{
 .circulo-grande{
 	width: 200px;
 }
+.icone-links{
+	width: 30px;
+}
 footer{
 	background-color: #ffc9a9;
 	padding: 25px;

@@ -91,14 +91,27 @@ div.fundadoras{
 header{
 	background-color: #fff;
 }
+.lista{
+
+}
 ul.lista li{
 	width: 60%;
 	list-style-type: none;
-	background-color: rgb(160, 160, 160);
+	background-color: #ffbb94;
 	border-bottom: 0.1rem solid;
 	border-color: #000;
 	padding-top: 4px;
 	padding-bottom: 4px;
+}
+.btn-doacao{
+	background-color: #ff9d65;
+	border: #000 solid 0.05rem;
+}
+.btn-doacao:hover{
+	background-color: #d17038;
+}
+.btn-doacao:active{
+	background-color: #ffbb94;
 }
 .botao:active {
 	color: #6c757d;
@@ -148,7 +161,7 @@ ul.lista li{
 	width: 30px;
 }
 footer{
-	background-color: #ffc9a9;
+	background-color: #ffbb94;
 	padding: 25px;
 }
 img.img0{

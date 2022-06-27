@@ -66,6 +66,21 @@ html{
 		width: 70%;
 	}
 }
+.btn-confirmar{
+	width: 200px;
+	background-color: #ff9d65;
+	border: #000 solid 0.05rem;
+	padding: 0;
+	margin: 0;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.btn-confirmar:hover{
+	background-color: #d17038;
+}
+.btn-confirmar:active{
+	background-color: #ffbb94;
+}
 .resumo{
 	width: 60%;
 	padding-top: 3%;
@@ -75,6 +90,14 @@ html{
 }
 .espaco04{
 	line-height: 15px;
+}
+.linha-not{
+	width: 500px;
+	text-align: left;
+}
+.lista-not{
+	list-style: none;
+	text-align: center;
 }
 .LinhaDoTempo{
 	width: 70%;
@@ -136,6 +159,12 @@ ul.lista li{
 }
 .navbar-expand-lg .navbar-nav .nav-link{
 	padding: 1rem .8rem;
+}
+.notificacoes{
+	width: 800px;
+	margin: auto;
+	text-align: center;
+	background-color: #ffe4d5;
 }
 .d-mapa{
 	width: 920px;

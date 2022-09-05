@@ -10,21 +10,21 @@
         <title>Entrar</title>
     </head>
     <body>
-        <div id="conteudo" class="pb-5">
-            <div class="row justify-content-start">
-                <div class="col-3 mt-5 logo-float">
+        <main id="conteudo" class="pb-5">
+            <section class="row justify-content-start">
+                <article class="col-3 mt-5 logo-float">
                     <a href="index.html" class="navbar-brand">
                         <img id="logo" src="../imgs/circulosolidario.png" alt="Círculo Solidário"> Círculo Solidário
                     </a>
-                </div>
-                <div class="col-6 mt-5 form-login pb-2">
+                </article>
+                <article class="col-6 mt-5 form-login pb-2">
                     <p class="fs-3 pb-0 pt-3 pb-2">Faça login</p>
                     <div class="mb-3 pb-0">
                         <label for="formdoador">
                             <input onclick="formdoador()" id="formdoador" type="radio" name="cadastro" value="Represento Doador">
                             Represento Doador</label>
                     </div>
-                    <form id="formularioD" action="receber-entrarDoador.php" method="POST">
+                    <form id="formularioD" action="home.html" method="get">
                         <div class="col-md-6">
                             <label for="email-doador" class="form-label pb-0">
                             Email
@@ -47,7 +47,7 @@
                         </label>
                     </div>
 
-                    <form id="formularioI" action="receber-entrarInst.php" method="POST">
+                    <form id="formularioI" action="perfil_inst.html" method="get">
                         <div class="col-md-5">
                             <label for="cnpj" class="form-label pb-0">
                                 CNPJ
@@ -62,9 +62,9 @@
                         </div>
                         <button class="botao btn-primary">Entrar</button> 
                     </form>
-                </div>
-            </div>
-        </div>
+                </article>
+            </section>
+        </main>
         <footer>
             <section class="row pb-0">
                 <article id="informacoes" class="col-5 mx-auto">
@@ -76,7 +76,8 @@
                 </article>
                 <article id="comunicacao" class="col-5 mx-auto">
                     <p>Comunicação:</p>
-                    <p class="pb-0">E-mail: <a href="mailto:conexaosolidariaa@gmail.com">conexaosolidariaa@gmail.com</a></p>
+                    <p><img src="../icones/email.png" alt=""> <a class="text-white" href="mailto:conexaosolidariaa@gmail.com">conexaosolidariaa@gmail.com</a></p>
+                    <p><img src="../icones/instagram.png" alt=""> <a class="text-white" href="https://www.instagram.com/conexao_solidariaa/">@conexao_solidariaa</a></p>
                 </article>
                 <p class="text-sm-center pb-0">Desenvolvido por... 2022...</p>
             </section>

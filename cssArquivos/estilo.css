@@ -102,11 +102,8 @@ html{
 .LinhaDoTempo{
 	width: 70%;
 }
-.tais{
-	width: 50%;
-}	
-.ana{
-	width: 50%;
+.img-text{
+	display: inline-block;
 }
 div.fundadoras{
 	width: 600px;

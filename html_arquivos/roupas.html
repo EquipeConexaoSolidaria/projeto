@@ -3,49 +3,48 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="../cssArquivos/estilo.css">
-        <link rel="stylesheet"type="text/css"href="../cssBootstrap/bootstrap.css">
-        <link rel="shortcut icon" href="../icones/favicon.ico" type="image/x-icon">
-
-        <title>Mapa</title>
-
+        <link rel="stylesheet"type="text/css"href="../templates/css_bootstrap/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="../templates/styles/estilo.css">
+        <link rel="shortcut icon" href="../templates/icones/favicon.ico" type="image/x-icon">
+        <title>Perfil de Instituição</title>
     </head>
     <body>
-        <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.494655481752!2d-46.6340885!3d-23.
-        5506715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59abb2b2eef1%3A0xfdb32e67a44103f5!2sCatedral
-        %20Metropolitana%20de%20S%C3%A3o%20Paulo!5e0!3m2!1spt-BR!2sbr!4v1627310597141!5m2!1spt-BR!2sbr" 
-        width="600" height="450" style="border: 0;" allowfullscreen="" loading="lazy"></iframe>-->
         <header>
             <nav class="navbar navbar-light bg-transparent">
                 <div class="container-fluid">
-                    <a href="index.html" class="navbar-brand">
-                        <img id="logo" src="../imgs/circulosolidario.png" alt="Círculo Solidário"> Círculo Solidário
+                    <a href="../index.html" class="navbar-brand">
+                        <img id="logo" src="../templates/imgs/circulosolidario.png" alt="Círculo Solidário"> Círculo Solidário
                     </a>
                     <div class="d-flex">
                         <a class="nav-link" aria-current="page" href="#comunicacao">Contato</a>
                         <a class="nav-link" aria-current="page" href="#informacoes">Mais informações</a>
-                        <a class="nav-link" aria-current="page" href="home.html"><img class="icone-links" src="../icones/home.png" alt=""></a>
-                        <a class="nav-link" aria-current="page" href="perfil_doador.html"><img class="icone-links" src="../icones/perfil.png" alt=""></a>  
+                        <a class="nav-link" aria-current="page" href="home.html"><img class="icone-links" src="../templates/icones/home.png" alt=""></a>
+                        <a class="nav-link" aria-current="page" href="perfil_doador.html"><img class="icone-links" src="../templates/icones/perfil.png" alt=""></a>  
                     </div>
                 </div>
             </nav>
         </header>
         <main id="conteudo">
-            <h1>Mapa das instituições</h1>
-            <section class="row justify-content-start pb-2">
-                <article class="col-5 pt-1">
-                    
-                    <form action="" id="formlario">
-                        <label for="endereco"><strong>Cidade/UF:</strong></label>
-                        <input type="text" id="endereco">
-                        <input type="submit" value="buscar">
-                    </form>
+            <section class="row justify-content-start">
+                <article class="col-4 esquerda00">
+                    <img class="img4" src="../imgs/roupas.jpg" alt=""><br/>
+                    <p class="pb-0">Roupas</p>
+                    <a class="sobre" href="#"><p class="espaco04">Endereço e horário para doar</p></a>
+                    <button onclick="function_text()" id="funcao_btn" class="btn-doacao btn" type="submit">
+                        Adicionar doação
+                    </button> 
                 </article>
-                <article class="col-3 pb-0 pt-3 btn-success fs-5">
-                    <a href="#" class="dropdown-item">Sua localização atual</a>
+                <article class="col-8 resumo">
+                    <p class="espaco03">Resumo<p>
+                    <p class="espaco03">Desde 2015, esta instituição, faz doação de todo tipo de roupa. <br/> Você pode colaborar doando camiseta, agasalho, lençol, roupas para animais, etc.</p>
+                    <br>
+                    <p class="espaco04">O que a instituição mais precisa no momento</p>
+                    <ul class="lista pb-0">
+                        <li>Meias</li>
+                        <li>Roupas infantis</li>
+                    </ul>
                 </article>
             </section>
-            <iframe class="container d-mapa" src="https://www.google.com/maps/d/embed?mid=1y-HU5BKpBQ5J0pCH7gUuvhHTJKm2tnUj"></iframe>
         </main>
         <footer>
             <section class="row pb-0">
@@ -64,5 +63,6 @@
                 <p class="text-sm-center pb-0">Desenvolvido por... 2022...</p>
             </section>
         </footer>
+        <script src="../jsArquivos/scripts.js"></script>
     </body>
 </html>

@@ -3,10 +3,11 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link type="text/css" rel="stylesheet" href="../cssBootstrap/bootstrap.css">
-        <link type="text/css" rel="stylesheet" href="../cssArquivos/estilo.css">
-        <link rel="shortcut icon" href="../icones/favicon.ico" type="image/x-icon">
-        <title>Perfil de Instituição</title>
+        <link rel="stylesheet"type="text/css"href="../templates/css_bootstrap/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="../templates/styles/estilo.css">
+        <link rel="shortcut icon" href="../templates/icones/favicon.ico" type="image/x-icon">
+
+        <title>Perfil</title>
     </head>
     <body>
         <header>
@@ -19,30 +20,19 @@
                         <a class="nav-link" aria-current="page" href="#comunicacao">Contato</a>
                         <a class="nav-link" aria-current="page" href="#informacoes">Mais informações</a>
                         <a class="nav-link" aria-current="page" href="home.html"><img class="icone-links" src="../icones/home.png" alt=""></a>
-                        <a class="nav-link" aria-current="page" href="perfil_doador.html"><img class="icone-links" src="../icones/perfil.png" alt=""></a>  
                     </div>
                 </div>
             </nav>
         </header>
         <main id="conteudo">
             <section class="row justify-content-start">
-                <article class="col-4 esquerda00">
-                    <img class="img4" src="../imgs/roupas.jpg" alt=""><br/>
-                    <p class="pb-0">Roupas</p>
-                    <a class="sobre" href="#"><p class="espaco04">Endereço e horário para doar</p></a>
-                    <button onclick="function_text()" id="funcao_btn" class="btn-doacao btn" type="submit">
-                        Adicionar doação
-                    </button> 
-                </article>
-                <article class="col-8 resumo">
-                    <p class="espaco03">Resumo<p>
-                    <p class="espaco03">Desde 2015, esta instituição, faz doação de todo tipo de roupa. <br/> Você pode colaborar doando camiseta, agasalho, lençol, roupas para animais, etc.</p>
-                    <br>
-                    <p class="espaco04">O que a instituição mais precisa no momento</p>
-                    <ul class="lista pb-0">
-                        <li>Meias</li>
-                        <li>Roupas infantis</li>
-                    </ul>
+                <article class="col-4">
+                    <img class="rounded-circle img4" src="../imgs/usuario.png" alt="">
+                    <p>Usuário</p>
+                    <article>
+                        <h2>Status de doações</h2>
+                        <p>Instituições/Quantidade de doações</p>
+                    </article>
                 </article>
             </section>
         </main>
@@ -63,6 +53,5 @@
                 <p class="text-sm-center pb-0">Desenvolvido por... 2022...</p>
             </section>
         </footer>
-        <script src="../jsArquivos/scripts.js"></script>
     </body>
 </html>

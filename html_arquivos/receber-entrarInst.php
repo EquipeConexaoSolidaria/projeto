@@ -1,10 +1,6 @@
 <?php
-    if(isset($_POST["cnpj"])){//Verificando se o campo foi preenchido
-        $nome = $_POST["cnpj"];
-    }
+    $cnpj = $_POST["cnpj"];
+    $senha = $_POST["senha"];
+    
 
-    if(isset($_POST["senha"])){//Verificando se o campo foi preenchido
-        $senha = $_POST["senha"];
-        //Verificaria no banco de dados se o usuario e senha estão corretos.
-        echo "$nome estamos verificando suas credenciais...";
-    }
+    

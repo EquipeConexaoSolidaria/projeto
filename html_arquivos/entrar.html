@@ -13,8 +13,8 @@
         <main id="conteudo" class="pb-5">
             <section class="row justify-content-start">
                 <article class="col-3 mt-5 logo-float">
-                    <a href="index.html" class="navbar-brand">
-                        <img id="logo" src="../imgs/circulosolidario.png" alt="Círculo Solidário"> Círculo Solidário
+                    <a href="../index.html" class="navbar-brand">
+                        <img id="logo" src="../templates/imgs/circulosolidario.png" alt="Círculo Solidário"> Círculo Solidário
                     </a>
                 </article>
                 <article class="col-6 mt-5 form-login pb-2">
@@ -24,7 +24,7 @@
                             <input onclick="formdoador()" id="formdoador" type="radio" name="cadastro" value="Represento Doador">
                             Represento Doador</label>
                     </div>
-                    <form id="formularioD" action="home.html" method="get">
+                    <form id="formularioD" action="receber-entrarDoador.php" method="POST">
                         <div class="col-md-6">
                             <label for="email-doador" class="form-label pb-0">
                             Email
@@ -47,7 +47,7 @@
                         </label>
                     </div>
 
-                    <form id="formularioI" action="perfil_inst.html" method="get">
+                    <form id="formularioI" action="receber-entrarInst.php" method="POST">
                         <div class="col-md-5">
                             <label for="cnpj" class="form-label pb-0">
                                 CNPJ
@@ -69,19 +69,19 @@
             <section class="row pb-0">
                 <article id="informacoes" class="col-5 mx-auto">
                     <p>Fundadoras:</p>
-                    <img src="../imgs/ana-100.jpeg" alt="">
+                    <img class="rounded-circle" src="../templates/imgs/ana-100.jpeg" alt="">
                     <p class="pb-0"> Ana Paula Rosa, Estudante do Instituto Federal de Educação, Ciência e Tecnologia (IFSP) em Bragança Paulista, SP.</p>
-                    <img src="../imgs/tais-100.jpg" alt="">
+                    <img class="rounded-circle" src="../templates/imgs/tais-100.jpg" alt="">
                     <p class="pb-0">Taís Barbosa Rodrigues, Estudante do Instituto Federal de Educação, Ciência e Tecnologia (IFSP) em Bragança Paulista, SP. </p>
                 </article>
                 <article id="comunicacao" class="col-5 mx-auto">
                     <p>Comunicação:</p>
-                    <p><img src="../icones/email.png" alt=""> <a class="text-white" href="mailto:conexaosolidariaa@gmail.com">conexaosolidariaa@gmail.com</a></p>
-                    <p><img src="../icones/instagram.png" alt=""> <a class="text-white" href="https://www.instagram.com/conexao_solidariaa/">@conexao_solidariaa</a></p>
+                    <p><img src="../templates/icones/email.png" alt=""> <a class="text-white" href="mailto:conexaosolidariaa@gmail.com">conexaosolidariaa@gmail.com</a></p>
+                    <p><img src="../templates/icones/instagram.png" alt=""> <a class="text-white" href="https://www.instagram.com/conexao_solidariaa/">@conexao_solidariaa</a></p>
                 </article>
                 <p class="text-sm-center pb-0">Desenvolvido por... 2022...</p>
             </section>
         </footer>
-        <script src="../jsArquivos/scripts.js"></script>
+        <script src="../templates/scripts/scripts.js"></script>
     </body>
 </html>

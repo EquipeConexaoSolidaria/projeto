@@ -1,4 +1,10 @@
 <?php
-    $nome = $_POST["nome-doador"];
-    $email = $_POST["email-doador"];
-    $senha = $_POST["senha-doador"];
+    require_once("Doador.class.php"); 
+
+    $nome = $_POST["nome"];
+    $email = $_POST["email"];
+    $senha = $_POST["senha"];
+
+    $objetoDoador = new Doador($nome, $email, $senha);
+    $objetoDisciplina->exibirDados();
+    $objetoDisciplina->inserirDoador();

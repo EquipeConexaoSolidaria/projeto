@@ -1,10 +1,10 @@
 <?php
-    $nome = $_POST["nome-instituicao"];
+    $nome = $_POST["nome"];
     $cnpj = $_POST["cnpj"];
     $senha = $_POST["senha"];
-    $endereco = $_POST["inputAddress"];
-    $endereco2 = $_POST["inputAddress2"];
-    $cidade = $_POST["inputCity"];
+    $endereco = $_POST["endereco1"];
+    $endereco2 = $_POST["endereco2"];
+    $cidade = $_POST["cidade"];
     $estado = $_POST["estado"];
     $dias = $_POST["dias"];
     $horario = $_POST["horario"];

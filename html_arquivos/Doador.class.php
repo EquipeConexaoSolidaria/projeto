@@ -34,9 +34,9 @@
                 die("Falha na conexão com o BD");
             }
             echo "Conectado com o banco";
-            $sql = "INSERT INTO doador VALUES ('$this->nome', '$this->email', '$this->senha')";
+            $sql = "INSERT INTO doador (nome, email, senha) VALUES ('$this->nome', '$this->email', '$this->senha')";
             if(mysqli_query($conexao, $sql)){
-                echo "Doador adicionado com sucesso";
+                echo "<BR />Doador adicionado com sucesso";
             }else{
                 echo "Erro: ".mysqli_error($conexao);
             }

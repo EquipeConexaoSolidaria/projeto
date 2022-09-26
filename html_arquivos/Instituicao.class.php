@@ -18,7 +18,7 @@
             echo "<br />";
             echo "O cnpj da ". __CLASS__ ." é ". $this->cnpj;
             echo "<br />";
-            echo "O endereço da ". __CLASS__ ." é ". $this->endereco;
+            echo "O endereço da ". __CLASS__ ." é ". $this->endereco1;
             echo "<br />";
             echo "O endereço da ". __CLASS__ ." é ". $this->endereco2;
             echo "<br />";
@@ -66,9 +66,9 @@
                 die("Falha na conexão com o BD");
             }
             echo "Conectado com o banco";
-            $sql = "INSERT INTO instituicao VALUES ('$this->nome', '$this->email', '$this->senha, $this->endereco, $this->endereco2, $this->cidade, $this->estado, $this->dias, $this->horario, $this->horario2, $this->horario3')";
+            $sql = "INSERT INTO instituicao VALUES (NULL, '$this->nome', '$this->email', '$this->senha, $this->endereco, $this->endereco2, $this->cidade, $this->estado, $this->dias, $this->horario, $this->horario2, $this->horario3')";
             if(mysqli_query($conexao, $sql)){
-                echo "Instituição adicionada com sucesso";
+                echo "<br />Instituição adicionada com sucesso";
             }else{
                 echo "Erro: ".mysqli_error($conexao);
             }

@@ -6,5 +6,5 @@
     $senha = $_POST["senha"];
 
     $objetoDoador = new Doador($nome, $email, $senha);
-    $objetoDisciplina->exibirDados();
-    $objetoDisciplina->inserirDoador();
+    $objetoDoador->exibirDados();
+    $objetoDoador->inserirDoador();
